@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Background Task 2</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="cancel_job">Cancel Job</string>
 </resources>

@@ -8,9 +8,9 @@
 
     <Button
         android:id="@+id/scheduleJobButton"
-        android:layout_width="179dp"
-        android:layout_height="72dp"
-        android:text="Schedule Job"
+        android:layout_width="@dimen/schedule_btn_width"
+        android:layout_height="@dimen/schedule_btn_height"
+        android:text="@string/schedule_job"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
@@ -20,9 +20,9 @@
 
     <Button
         android:id="@+id/cancelJobButton"
-        android:layout_width="169dp"
-        android:layout_height="56dp"
-        android:text="Cancel Job"
+        android:layout_width="@dimen/cancel_btn_width"
+        android:layout_height="@dimen/cancel_btn_height"
+        android:text="@string/cancel_job"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"

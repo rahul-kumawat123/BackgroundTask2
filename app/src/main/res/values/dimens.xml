@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="schedule_btn_width">179dp</dimen>
+    <dimen name="schedule_btn_height">72dp</dimen>
+    <dimen name="cancel_btn_width">169dp</dimen>
+    <dimen name="cancel_btn_height">56dp</dimen>
+</resources>

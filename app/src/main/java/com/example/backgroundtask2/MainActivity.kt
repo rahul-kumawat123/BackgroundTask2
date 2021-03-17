@@ -28,19 +28,6 @@ class MainActivity : AppCompatActivity() {
 
 
         scheduleJobButton.setOnClickListener {
-/*
-            val myJobScheduler = getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler
-            val jobInfo = JobInfo.Builder(1,
-                    ComponentName(this, JobSchedulerService::class.java))
-
-            val job = jobInfo.setMinimumLatency(1000)
-                    //.setPeriodic(5000)
-                    //.setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
-                    .build()
-
-            if(myJobScheduler.schedule(job) <=0 )
-                showToast("There was a problem in scheduling job")*/
-
             startJob()
         }
 
